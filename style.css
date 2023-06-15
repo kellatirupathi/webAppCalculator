@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  #calculator{
+    padding: 40px;
+  }
+  
+  #result {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+  }
+  
+  #saveHistory {
+    margin-left: 5px;
+  }
+  
+  #admin {
+    margin-top: 50px;
+  }
+  
+  #admin label {
+    margin-right: 10px;
+  }
+div#login{
+    background-color: rgba(0,0,0,0.5);
+                width: 100%;
+                font-size: 18px;
+                border-radius: 10px;
+                border:1px soid rgba(255,255,255,0.3);
+                box-shadow:2px 2px 15px
+                rgba(0,0,0,0.3);
+                color: #fff;
+}  
+.dec{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border:1px soid rgba(255,255,255,0.3);
+    box-shadow:2px 2px 15px rgba(0,0,0,0.3);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn{
+    display: inline-block;
+    text-align: center;
+      padding: 15px 35px;
+      background-color: #3719e3;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 3px;
+      width: max-content;
+}
+div.main{
+    width: 900px;
+    height: 900px;
+    margin: 100px auto 0px auto;
+}
+#result{
+    padding: 10px;
+    width: 230px;
+}
+div.row1{
+    width: 500px;
+    margin: 100px auto 0px auto;
+}
+.ac{
+    background: rgb(162, 99, 99);
+    color: #fff;
+}
+.plus{
+    background: rgb(22, 16, 16);
+    color: #fff;
+}
+.minus{
+    background: rgb(22, 16, 16);
+    color: #fff;
+}
+.by{
+    background: rgb(22, 16, 16);
+    color: #fff;
+}.star{
+    background: rgb(22, 16, 16);
+    color: #fff;
+}
+.equal{
+    background:  rgb(172, 107, 234);
+    color: #fff;
+}
+.sav{
+    background: rgb(35, 19, 213);
+    color: #fff;
+}
+
+
+
+.historyItem {
+  border-bottom: 1px solid rgb(202, 172, 172);
+  padding-left: 1em;
+  padding-right: 1em;
+  color: grey;
+  font-size: 60%;
+}
+
+.historyItem>*:first-child {
+  padding-top: 0.5em;
+}
+
+.historyItem>*:last-child {
+  text-align: right;
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 100, 100, 0.2);
+  transition: background-color 0.3s ease;
+}
+.historyContainer {
+  flex-grow: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.rightSide {
+  background-color: rgb(224, 238, 213);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  color: black;
+}
